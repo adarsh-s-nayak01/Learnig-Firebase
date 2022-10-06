@@ -1,0 +1,27 @@
+npm init -y
+//create package json.
+
+npm i webpack weback-cli -D
+//installs webpack and webpack cli, and store it in web dependencies.
+
+
+//custom script in package.json
+//go to scripts.within that add 
+"build" : "webpack",
+
+//add some code to index.js
+
+//now open up a terminal and type
+npm run build
+//webpack bundles index to bundle.js
+
+//include bundle.js in index.html.
+
+//setup a project on a firebase website.
+//copy config objects. and paste it in index.js so that firebase gets connected to the frontend
+
+//install firebase in command line.
+npm install firebase.
+
+//create database first.
+
